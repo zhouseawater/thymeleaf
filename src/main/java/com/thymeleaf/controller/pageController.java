@@ -35,7 +35,7 @@ public class pageController {
      * @param model
      * @return
      */
-    @RequestMapping("/page")
+    @RequestMapping("/model")
     public String page3(Model model){
         model.addAttribute("name","seawater");
         return "hello";
