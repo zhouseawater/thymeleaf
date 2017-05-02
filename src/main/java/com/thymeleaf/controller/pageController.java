@@ -24,7 +24,7 @@ public class pageController {
      * 跳转
      * @return
      */
-    @RequestMapping("info/redirect")
+    @RequestMapping("/redirect")
     public String page2(){
         return "redirect/redirect";
     }
